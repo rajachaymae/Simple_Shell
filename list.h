@@ -11,4 +11,5 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 
+#define DELIMETER " \n\t"
 #endif

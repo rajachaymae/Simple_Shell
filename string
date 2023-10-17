@@ -1,0 +1,23 @@
+#include "list.h"
+
+/**
+ * _strcpy - copies the string pointed to by src, including the null terminator
+ * @dest: destination 
+ * @src: source string
+ *
+ * Return: pointer to dest
+ */
+char *_strcpy(char *dest, const char *src)
+{
+    if (dest == src || src == 0)
+	return (dest);
+
+    char *d = dest;
+    const char *s = src;
+
+    while ((*d++ = *s++))
+        ;
+
+    return dest;
+}
+
